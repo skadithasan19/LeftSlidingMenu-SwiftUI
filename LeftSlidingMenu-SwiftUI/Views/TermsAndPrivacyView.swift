@@ -10,8 +10,7 @@ import SwiftUI
 
 struct TermsAndPrivacyView: View {
     var body: some View {
-        Text("Terms And Conditions")
-            .navigationBarTitle("Terms and Conditions")
+        Text("Terms And Conditions") 
     }
 }
 

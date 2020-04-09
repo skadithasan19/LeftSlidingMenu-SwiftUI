@@ -43,9 +43,7 @@ struct MenuCell: View {
     var item:Menu
     
     @ObservedObject var SharedLeftMenu = LeftMenuAction.shareInstance
-    
-    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
-    
+     
     var body: some View {
         
         VStack(alignment: .leading) {
@@ -70,61 +68,4 @@ struct MenuCell: View {
     }
 }
 
-struct Menu {
-    var title:String
-    var icon:String
-}
 
-public enum ViewType: String {
-    case Home
-    case Accounts
-    case FAQ
-    case TermsAndPrivacy
-}
-
-class CommonView {
-    
-    var viewType:ViewType = .Home
-    
-    init(title:String) {
-        
-        switch title {
-        case "Home":
-            viewType = .Home
-            break
-        case "Accounts":
-            viewType = .Accounts
-            break
-        case "FAQ":
-            viewType = .FAQ
-            break
-        case "Terms & Privacy":
-            viewType = .TermsAndPrivacy
-            break
-        default:
-            viewType = .Home
-            break
-        }
-    }
-    
-    func getViewType() -> ViewType {
-        return viewType
-    }
-    
-    func containedView() -> AnyView {
-        
-        switch viewType {
-        case .Home:
-            return AnyView(HomeView())
-            
-        case .Accounts:
-            return AnyView(AccountView())
-            
-        case .FAQ:
-            return AnyView(FAQView())
-            
-        case .TermsAndPrivacy:
-            return AnyView(TermsAndPrivacyView())
-        }
-    }
-}

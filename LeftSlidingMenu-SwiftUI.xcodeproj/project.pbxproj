@@ -18,6 +18,8 @@
 		3C2DF680243FB0DA006CE589 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2DF67F243FB0DA006CE589 /* AccountView.swift */; };
 		3C2DF682243FB0F1006CE589 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2DF681243FB0F1006CE589 /* FAQView.swift */; };
 		3C2DF684243FB13C006CE589 /* TermsAndPrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2DF683243FB13C006CE589 /* TermsAndPrivacyView.swift */; };
+		3C3C4C90243FBA2400171C26 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C4C8F243FBA2400171C26 /* Menu.swift */; };
+		3C3C4C92243FBA5300171C26 /* CommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3C4C91243FBA5300171C26 /* CommonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		3C2DF67F243FB0DA006CE589 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AccountView.swift; path = "LeftSlidingMenu-SwiftUI/Views/AccountView.swift"; sourceTree = SOURCE_ROOT; };
 		3C2DF681243FB0F1006CE589 /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
 		3C2DF683243FB13C006CE589 /* TermsAndPrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndPrivacyView.swift; sourceTree = "<group>"; };
+		3C3C4C8F243FBA2400171C26 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		3C3C4C91243FBA5300171C26 /* CommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		3C2DF67E243FB031006CE589 /* Menus */ = {
 			isa = PBXGroup;
 			children = (
+				3C3C4C8F243FBA2400171C26 /* Menu.swift */,
+				3C3C4C91243FBA5300171C26 /* CommonView.swift */,
 				3C2DF67A243FAF89006CE589 /* LeftMenuView.swift */,
 			);
 			path = Menus;
@@ -184,6 +190,8 @@
 				3C2DF67B243FAF89006CE589 /* LandingPage.swift in Sources */,
 				3C2DF682243FB0F1006CE589 /* FAQView.swift in Sources */,
 				3C2DF67C243FAF89006CE589 /* LeftMenuView.swift in Sources */,
+				3C3C4C92243FBA5300171C26 /* CommonView.swift in Sources */,
+				3C3C4C90243FBA2400171C26 /* Menu.swift in Sources */,
 				3C2DF66A243FAF4D006CE589 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

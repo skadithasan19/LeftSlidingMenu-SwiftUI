@@ -10,8 +10,7 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("HomeView")
-            .navigationBarTitle("Home")
+        Text("HomeView") 
     }
 }
 

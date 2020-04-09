@@ -10,8 +10,7 @@ import SwiftUI
 
 struct FAQView: View {
     var body: some View {
-        Text("FAQ")
-            .navigationBarTitle("FAQ")
+        Text("FAQ") 
     }
 }
 
